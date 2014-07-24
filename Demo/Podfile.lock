@@ -1,0 +1,57 @@
+PODS:
+  - AFNetworking (2.3.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.3.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.3.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.3.1)
+  - AFNetworking/Security (2.3.1)
+  - AFNetworking/Serialization (2.3.1)
+  - AFNetworking/UIKit (2.3.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AuthKit/Core (0.4.0):
+    - AFNetworking (~> 2.0)
+    - JSONModel
+  - AuthKit/Crashlytics (0.4.0):
+    - AuthKit/Core
+  - AuthKit/GitHub (0.4.0):
+    - AuthKit/Core
+  - JSONModel (0.13.0)
+  - OnlineKit (0.1.0):
+    - OnlineKit/Core
+    - OnlineKit/Crashlytics
+    - OnlineKit/GitHub
+  - OnlineKit/Core (0.1.0):
+    - AuthKit/Core
+  - OnlineKit/Crashlytics (0.1.0):
+    - AuthKit/Crashlytics
+    - OnlineKit/Core
+  - OnlineKit/GitHub (0.1.0):
+    - AuthKit/GitHub
+    - OnlineKit/Core
+
+DEPENDENCIES:
+  - OnlineKit (from `../OnlineKit.podspec`)
+
+EXTERNAL SOURCES:
+  OnlineKit:
+    :path: ../OnlineKit.podspec
+
+SPEC CHECKSUMS:
+  AFNetworking: 6d7b76aa5d04c8c37daad3eef4b7e3f2a7620da3
+  AuthKit: a6cc5fbcf590eb16029fc9cd4acbeb2e3852c1d2
+  JSONModel: 62ea96b49ea18a8b91ef89c249dba291d8601d82
+  OnlineKit: e053743182c8c35d874cc7ac1d9e4334e51e6cff
+
+COCOAPODS: 0.33.1
