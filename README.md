@@ -3,6 +3,13 @@ OnlineKit
 
 OnlineKit is a native model mapping of online service APIs. It works on top of [AuthKit](https://github.com/legoless/AuthKit). OnlineKit contains native Objective-C classes that are serializable to JSON using JSONModel. OnlineKit also wraps REST API's of services and allows you to work with them in a native kind of way.
 
+# Services
+
+Currently supported services include:
+- Crashlytics
+- GitHub
+- Travis CI
+
 # Contributing
 
 You can easily contribute to OnlineKit, as we will accept pull requests.
